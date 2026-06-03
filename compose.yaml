@@ -14,7 +14,7 @@ services:
 
   web:
     # Debe modificar el nombre de la imagen al suyo
-    image: angoies/fastapi_app
+    image: sergiobja/2526-rec-sbj
     restart: always
     ports:
       - "80:8000"
